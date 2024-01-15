@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'maven-publish'
+}
+
+group = 'xyz.starly.astralshop'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://repo.starly.kr/repository/maven-releases/"
+    }
+}
+
+dependencies {
+    compileOnly "org.jetbrains:annotations:23.0.0"
+    compileOnly "org.projectlombok:lombok:1.18.26"
+    annotationProcessor "org.projectlombok:lombok:1.18.26"
+
+    compileOnly "org.spigotmc:spigot-api:R0.1:1.12.2"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = "xyz.starly.astralshop"
+            artifactId = "AstralShopAPI"
+            version = "${project.version}"
+
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+
+build.dependsOn publishToMavenLocal
