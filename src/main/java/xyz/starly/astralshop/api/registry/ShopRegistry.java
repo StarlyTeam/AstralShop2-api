@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ShopRegistry {
 
-    boolean createShop(String name, int rows);
+    boolean createShop(String name, String guiTitle);
 
     boolean deleteShop(String name);
 
