@@ -8,6 +8,10 @@ public interface Shop {
 
     void setName(String name);
 
+    String getGuiTitle();
+
+    void setGuiTitle(String name);
+
     String getNpc();
 
     void setNpc(String npc);
