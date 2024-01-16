@@ -1,5 +1,7 @@
 package xyz.starly.astralshop.api.shop;
 
+import xyz.starly.astralshop.api.sound.SoundType;
+
 public interface Shop {
 
     String getName();

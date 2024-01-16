@@ -1,4 +1,4 @@
-package xyz.starly.astralshop.api.shop;
+package xyz.starly.astralshop.api.sound;
 
 public enum SoundType {
 

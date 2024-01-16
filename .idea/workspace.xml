@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bc9e65-bdd5-4d3a-8b4d-ddd2edafd1cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/AstralShopAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/AstralShopPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/ShopItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/ShopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/SoundType.java" afterDir="false" />
+    <list default="true" id="81bc9e65-bdd5-4d3a-8b4d-ddd2edafd1cc" name="Changes" comment="feat: init project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/registry/ShopRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/shop/SoundType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starly/astralshop/api/sound/SoundType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,11 +132,25 @@
       <workItem from="1705250889197" duration="1836000" />
       <workItem from="1705253737117" duration="3364000" />
       <workItem from="1705298162193" duration="1818000" />
-      <workItem from="1705308813669" duration="2251000" />
+      <workItem from="1705308813669" duration="2739000" />
+      <workItem from="1705402428291" duration="682000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: init project">
+      <option name="closed" value="true" />
+      <created>1705311547214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311547214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init project" />
   </component>
 </project>
