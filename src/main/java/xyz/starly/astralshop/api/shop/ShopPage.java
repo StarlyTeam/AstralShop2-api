@@ -1,6 +1,9 @@
 package xyz.starly.astralshop.api.shop;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.List;
+import java.util.Map;
 
 public interface ShopPage {
 
@@ -8,13 +11,13 @@ public interface ShopPage {
 
     void setPageNum(int pageNum);
 
-    List<ShopItem> getItems();
+    Map<Integer, ShopItem> getItems();
 
-    void setItems(List<ShopItem> items);
+    void setItems(Map<Integer, ShopItem> items);
 
-    String getInventoryName();
+    String getGuiTitle();
 
-    void setInventoryName(String inventoryName);
+    void setGuiTitle(String inventoryName);
 
     int getRows();
 
