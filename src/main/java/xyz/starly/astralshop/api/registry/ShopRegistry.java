@@ -1,20 +1,21 @@
 package xyz.starly.astralshop.api.registry;
 
+import org.jetbrains.annotations.NotNull;
 import xyz.starly.astralshop.api.shop.Shop;
 
 import java.util.List;
 
 public interface ShopRegistry {
 
-    boolean createShop(String name, String guiTitle);
+    void loadShops();
 
-    boolean deleteShop(String name);
+    void saveShops();
 
-    boolean updateShop(String name);
+    boolean createShop(@NotNull String name, String guiTitle);
 
-    boolean updateShops();
+    boolean deleteShop(@NotNull String name);
 
-    Shop getShop(String name);
+    @NotNull Shop getShop(String name);
 
-    List<Shop> getShops();
+    @NotNull List<Shop> getShops();
 }
