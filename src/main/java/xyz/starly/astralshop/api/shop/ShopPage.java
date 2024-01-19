@@ -1,8 +1,5 @@
 package xyz.starly.astralshop.api.shop;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.util.List;
 import java.util.Map;
 
 public interface ShopPage {
