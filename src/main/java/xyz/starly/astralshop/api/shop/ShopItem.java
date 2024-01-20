@@ -3,8 +3,6 @@ package xyz.starly.astralshop.api.shop;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
-import java.util.Map;
-import java.util.UUID;
 
 public interface ShopItem {
 
@@ -25,14 +23,6 @@ public interface ShopItem {
     int getRemainStock();
 
     void setRemainStock(int stock);
-
-    Map<UUID, Integer> getLimitBuyCount();
-
-    void setLimitBuyCount(UUID uniqueId, int count);
-
-    Map<UUID, Integer> getLimitSellCount();
-
-    void setLimitSellCount(UUID uniqueId, int count);
 
     List<String> getCommands();
 
