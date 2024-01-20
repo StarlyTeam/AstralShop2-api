@@ -15,7 +15,7 @@ public interface ShopRegistry {
 
     boolean deleteShop(@NotNull String name);
 
-    @NotNull Shop getShop(String name);
+    Shop getShop(String name);
 
     @NotNull List<Shop> getShops();
 }
