@@ -11,7 +11,7 @@ public interface ShopRegistry {
 
     void saveShops();
 
-    boolean createShop(@NotNull String name, String guiTitle);
+    boolean createShop(@NotNull String name);
 
     boolean deleteShop(@NotNull String name);
 
