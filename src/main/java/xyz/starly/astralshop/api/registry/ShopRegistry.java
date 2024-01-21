@@ -18,4 +18,6 @@ public interface ShopRegistry {
     Shop getShop(String name);
 
     @NotNull List<Shop> getShops();
+
+    List<String> getShopNames();
 }
