@@ -1,14 +1,8 @@
 package xyz.starly.astralshop.api.shop;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.List;
 
 public interface Shop {
-
-    @NotNull String getName();
-
-    void setName(@NotNull String name);
 
     String getGuiTitle();
 
