@@ -4,6 +4,10 @@ import java.util.List;
 
 public interface Shop {
 
+    String getName();
+
+    void setName(String name);
+
     String getGuiTitle();
 
     void setGuiTitle(String name);
