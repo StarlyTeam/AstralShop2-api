@@ -7,11 +7,9 @@ import java.util.List;
 
 public interface ShopRegistry {
 
-    void loadShops();
+    void saveShop(Shop shop);
 
     void saveShops();
-
-    void saveShop(Shop shop);
 
     boolean createShop(@NotNull String name);
 
@@ -20,6 +18,4 @@ public interface ShopRegistry {
     Shop getShop(String name);
 
     @NotNull List<Shop> getShops();
-
-    List<String> getShopNames();
 }
