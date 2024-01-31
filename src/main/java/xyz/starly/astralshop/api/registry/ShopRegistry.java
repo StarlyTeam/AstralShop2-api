@@ -7,9 +7,13 @@ import java.util.List;
 
 public interface ShopRegistry {
 
-    void saveShop(Shop shop);
+    void loadShops();
+
+    void loadShop(Shop shop);
 
     void saveShops();
+
+    void saveShop(Shop shop);
 
     boolean createShop(@NotNull String name);
 
